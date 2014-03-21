@@ -1,4 +1,4 @@
 test
 ====
 
-Tests
+Hello world!
