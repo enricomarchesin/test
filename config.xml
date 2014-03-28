@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "mobi.flecta.tests.test1"
+    versionCode = "10"
+    version     = "0.0.1" >
+    <!-- versionCode is optional and Android only -->
+
+    <name>Test 1</name>
+
+    <description>
+        A test app.
+    </description>
+
+    <author href="http://flecta.mobi" email="dev@flecta.mobi">Enrico M.</author>
+
+</widget>
