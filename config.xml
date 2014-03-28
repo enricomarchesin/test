@@ -14,4 +14,10 @@
 
     <author href="http://flecta.mobi" email="dev@flecta.mobi">Enrico M.</author>
 
+    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+
 </widget>
