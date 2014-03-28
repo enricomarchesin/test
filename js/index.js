@@ -43,10 +43,10 @@ var app = {
         } else {
                 console.log('no statusbar plugin');
         }
-        console.log('device.platform='+device.platform);
+        alert('device.platform='+device.platform);
         if (device.platform=='iOS') {
             location='index-chui-ios.html';
-        } elseif (device.platform=='Android') {
+        } else if (device.platform=='Android') {
             location='index-chui-android.html';
         }
     }
