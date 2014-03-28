@@ -1,5 +1,6 @@
 [{
     "label": "update",
-    "cmd": "/usr/bin/curl -X PUT -d 'data={\"pull\":\"true\"}' https://build.phonegap.com/api/v1/apps/847766?auth_token=Rr3rFNpfpdbqXTUT8try",
+    "cmd": "/usr/bin/curl",
+    "args": [ "-X PUT -d 'data={\"pull\":\"true\"}' https://build.phonegap.com/api/v1/apps/847766?auth_token=Rr3rFNpfpdbqXTUT8try" ],
     "key": "Ctrl-Alt-U"
 }]
