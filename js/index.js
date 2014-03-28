@@ -38,6 +38,16 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         console.log('Received Event: ' + id);
-        if (StatusBar) StatusBar.hide();
+        if (StatusBar) {
+                StatusBar.hide();
+        } else {
+                console.log('no statusbar plugin');
+        }
+        console.log('device.platform='+device.platform);
+        if (device.platform=='iOS') {
+            location='index-chui-ios.html';
+        } elseif (device.platform=='Android') {
+            location='index-chui-android.html';
+        }
     }
 };
