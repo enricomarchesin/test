@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "mobi.flecta.tests.test1"
     versionCode = "10"
-    version     = "0.0.1" >
+    version     = "0.0.2" >
     <!-- versionCode is optional and Android only -->
 
     <name>Test 1</name>
@@ -15,7 +15,4 @@
     <author href="http://flecta.mobi" email="enrico@flecta.com">Enrico M.</author>
 
     <gap:plugin name="org.apache.cordova.device" />
-
-    <preference name="phonegap-version" value="3.1.0" />
-    <preference name="orientation" value="portrait" />
 </widget>
