@@ -12,7 +12,7 @@
         A test app.
     </description>
 
-    <author href="http://flecta.mobi" email="dev@flecta.mobi">Enrico M.</author>
+    <author href="http://flecta.mobi" email="enrico@flecta.com">Enrico M.</author>
 
     <preference name="phonegap-version" value="3.1.0" />
     <preference name="orientation" value="portrait" />
