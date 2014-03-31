@@ -14,7 +14,9 @@
 
     <author href="http://flecta.mobi" email="dev@flecta.mobi">Enrico M.</author>
 
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="3.4.0" />
     <preference name="orientation" value="portrait" />
-    <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
+
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
 </widget>
