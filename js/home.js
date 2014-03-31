@@ -36,20 +36,19 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         console.log('sending DeviceReady event...');
+
+        if (StatusBar) {
+                StatusBar.hide();
+        } else {
+                console.log('no statusbar plugin');
+        }
+
         app.receivedEvent('deviceready');
         console.log('Sent.');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         console.log('Received Event: ' + id);
-/*
-        if (StatusBar) {
-                StatusBar.hide();
-        } else {
-                console.log('no statusbar plugin');
-        }
-*/
-        alert('device.platform='+device.platform);
         if (device.platform=='iOS') {
             location='index-chui-ios.html';
         } else if (device.platform=='Android') {
