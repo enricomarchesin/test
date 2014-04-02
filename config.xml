@@ -13,6 +13,6 @@
 
     <preference name="phonegap-version" value="3.3.0" />
 
-    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
 </widget>
